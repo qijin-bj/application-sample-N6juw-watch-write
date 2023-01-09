@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: component-sample
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/quarkus:next
+      - image: quay.io/redhat-appstudio-qe/test-images-protected:default-component-sample
         imagePullPolicy: Always
         name: container-image
         resources: {}
